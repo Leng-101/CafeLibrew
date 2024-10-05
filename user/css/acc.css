@@ -1,0 +1,225 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    }
+.container{
+    width:100%;
+    height:100%;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.row{
+    width:100%;
+    height:100vh;
+    background-color: #513E2F;
+    margin:auto;
+}
+.left{
+    width:87.5%;
+    height:100vh;
+    background-color: #f4f4f4;
+    float:left;
+    text-align: center;
+}
+.header{
+    height:auto;
+    width:auto;
+    text-align: left;
+}
+ul 
+{
+    margin:2% 1% 1% 5%;
+    
+}
+li{
+    list-style: none;
+    display:inline-block;
+    position:relative;
+    vertical-align: middle;
+
+}
+.logo{
+    width:50px;
+}
+h1{
+    font-size:40px;
+    color: #513E2F;
+    font-weight:bold;
+}
+h3{
+    font-size:20px;
+    color:#755C46;
+}
+.leftleft{
+    width:16%;
+    height:80vh;
+    background-color:#744e312a;;
+    float:left;
+    border-radius: 15px;
+    margin-left:2%;
+    margin-top:1%;
+    padding-top: 1%;;
+}
+.menu_label{
+    margin:10% 4% 5% 4%;
+    font-size:130%;
+    color:#513E2F;
+    font-weight: bold;
+}
+
+.side_button{
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:14px;
+    background-color:#614a38;
+    border: 1.5px solid #614a38;
+    border-radius:5px;
+    width:80%;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+.right{
+    width:12.5%;
+    height:100vh;
+    float:right;
+    background-color: #f4f4f4;
+}
+.sidepic{
+    width:100%;
+    height:220.6px;
+    float:right;
+}
+.leftright{
+    width:78%;
+    height:82vh;
+    background-color:white;
+    float:right;
+    border-radius: 15px;
+    margin: 1% 2% 1% 1%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.reserve_label{
+    margin-top:3%;
+    margin-bottom:3%;
+    font-size:22px;
+    color:#513E2F;
+    font-weight: bold;
+}
+.additional{
+    margin:3%;
+    font-size:16px;
+    color:#513E2F;
+    font-weight: bold;
+}
+table{
+    
+    color:#513E2F;
+    margin:auto;
+    margin-top:2%;
+}
+.table_heading_num, .table_data_num{
+    width:50px;
+    text-align: center;
+}
+.table_heading_name, .table_data_name{
+    width: 260px;
+    text-align: center;
+}
+.table_heading_time, .table_data_time , .table_heading_date, .table_data_date{
+    width:130px;
+    text-align: center;
+}
+
+.table_heading1{
+    width:300px;
+    text-align: center;
+}
+.table_button{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:14px;
+    background-color:#614a38e0;
+    border: 1.5px solid #614a38e0;
+    border-radius:5px;
+    width:30%;
+    height:30px;
+}
+
+.sign_out_button{
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:14px;
+    background-color:#927b69;
+    border: 1.5px solid #927b69;
+    border-radius:5px;
+    width:80%;
+}
+.sign_out_button:hover, .reserve_button:hover, .table_button:hover, .table_button2:hover, .side_button:hover{
+    background-color:#cebba8;
+    color:white;
+    font-weight: bold;
+    border:none;
+}
+
+.reserve_button{
+    padding: 10px;
+    margin-top:10%;
+    margin-bottom:10px;
+    font-size:14px;
+    background-color:#614a38;
+    border: 1.5px solid #614a38;
+    border-radius:5px;
+    width:80%;
+}
+.approved_div{
+    background-color: #421d0211;
+    padding-top:3px;
+    padding-bottom:15px;
+}
+
+.table_heading_num2, .table_data_num2{
+    width:50px;
+    text-align: center;
+}
+.table_heading_name2, .table_data_name2{
+    width: 220px;
+    text-align: center;
+}
+.table_heading_time2, .table_data_time2 {
+    width:200px;
+    text-align: center;
+}
+ .table_heading_date2, .table_data_date2{
+    width:140px;
+    text-align: center;
+}
+
+.table_heading2{
+    width:160px;
+    text-align: center;
+}
+.table_button2{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:14px;
+    background-color:#614a38e0;
+    border: 1.5px solid #614a38e0;
+    border-radius:5px;
+    width:50%;
+    height:30px;
+}
+.table_heading_num, .table_heading_name, .table_heading_time, 
+.table_heading_date, .table_heading1, 
+.table_heading_num2, .table_heading_name2, .table_heading_time2, 
+.table_heading_date2, .table_heading2{
+padding-bottom:5px;
+} 
